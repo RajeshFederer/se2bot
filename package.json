@@ -1,0 +1,29 @@
+{
+  "name": "se2bot",
+  "version": "1.0.0",
+  "description": "Policy Servicing BOT (PSB) to guide the policyholder/ annuitant during Fund Switch request",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "incident"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajeshFederer/se2bot.git"
+  },
+  "author": "Rajeshwaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajeshFederer/se2bot/issues"
+  },
+  "homepage": "https://github.com/RajeshFederer/se2bot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
