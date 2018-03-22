@@ -11,7 +11,24 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
 app.post('/', (req, res) =>{
-    
+    let resObj =  {
+        "speech": "Hi Fredrick Gonsalves, Here are your existing Portfolio details for Variable Annuity Policy No $policyInfo.original",
+        "messages": [{
+          "type": 0,
+          "platform": "facebook",
+          "speech": "Hi Fredrick Gonsalves, Here are your existing Portfolio details for Variable Annuity Policy No $policyInfo.original"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Would you like me to help you with your investment planning?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        }]
+    };
+    return res.json(resObj);
 });
 
 app.listen(port, function(){
