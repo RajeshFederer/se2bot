@@ -21,11 +21,19 @@ app.post('/', (req, res) =>{
         {
           "type": 2,
           "platform": "facebook",
-          "title": "Would you like me to help you with your investment planning?",
-          "replies": [
-            "Yes",
-            "No"
-          ]
+          "text": "Would you like me to help you with your investment planning?",
+    "quick_replies": [
+      {
+        "content_type": "text",
+        "title": "Yes",
+        "payload": "Yes"
+      },
+      {
+        "content_type": "text",
+        "title": "No",
+        "payload": "No"
+      }
+    ]
         }]
     };
     console.log('IN', req.body);
