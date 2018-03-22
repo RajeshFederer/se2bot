@@ -28,6 +28,7 @@ app.post('/', (req, res) =>{
           ]
         }]
     };
+    console.log('IN', req.body);
     return res.json(resObj);
 });
 
