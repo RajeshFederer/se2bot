@@ -12,6 +12,7 @@ app.use(bodyParser.json());
 
 app.post('/', (req, res) =>{
   if(req.body.result.action == "getPolicyInfo"){
+    console.log('IN GETPOLICYINFO');
     let policyNo;
     let parameters = req.body.result.parameters;
     if(parameters.policyInfo){
