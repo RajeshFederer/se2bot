@@ -24,7 +24,7 @@ app.post('/', (req, res) =>{
         {
           "type": 0,
           "platform": "facebook",
-          "speech": "Hi Fredrick Gonsalves, Here are your existing Portfolio details for variable annuity policy No "+policyNo + "</br></br> Alamere Equity Income</br> Alamere Money Market."
+          "speech": "Hi Fredrick Gonsalves, Here are your existing Portfolio details for variable annuity policy No "+policyNo + " </br></br> Alamere Equity Income</br> Alamere Money Market."
         },
           {
             "type": 4,
@@ -47,7 +47,7 @@ app.post('/', (req, res) =>{
               }
             }
           }
-        ]
+      ]
   };
     return res.json(resMsg);
   }
