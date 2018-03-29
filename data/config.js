@@ -5,6 +5,7 @@ module.exports = {
         "LastName": "Gonsalves",
         "MaritalStatus": "Married",
         "DOB": "12-10-1960",
+        "Age": 58,
         "AnnualEarnedIncome": 250000,
         "TotalNetWorth": 90000000,
         "LegalResidenceAddress": "141,First Avenue",
@@ -13,6 +14,10 @@ module.exports = {
         "Employer": "Priverica Corp",
         "Occupation": "Consultant",
         "TaxId": 986574,
+        "CreditScore": 500,
+        "RiskAppetiteScore": 7,
+        "FinancialGuidanceStrategy" : "Safetynet",
+        "State" : "Alabama",
         "policyDetails": {
             "PolicyNumber": "ALBDULA000048805",
             "PolicyStatus": "Active",
@@ -31,11 +36,12 @@ module.exports = {
             "UnitValue" : 10.87741207
         }]
     }, {
-        "FirstName": "Rajesh",
-        "LastName": "waran",
-        "MaritalStatus": "Married",
-        "DOB": "12-10-1960",
-        "AnnualEarnedIncome": 250000,
+        "FirstName": "Valarie",
+        "LastName": "Jones",
+        "MaritalStatus": "Single",
+        "DOB": "12-10-1986",
+        "Age": 32,
+        "AnnualEarnedIncome": 75000,
         "TotalNetWorth": 90000000,
         "LegalResidenceAddress": "141,First Avenue",
         "City": "Newyork",
@@ -43,6 +49,10 @@ module.exports = {
         "Employer": "Priverica Corp",
         "Occupation": "Consultant",
         "TaxId": 986574,
+        "CreditScore": 400,
+        "RiskAppetiteScore": 5,
+        "FinancialGuidanceStrategy" : "Aggressive",
+        "State" : "New York",
         "policyDetails": {
             "PolicyNumber": "ALBDULA000048806",
             "PolicyStatus": "Active",
