@@ -14,7 +14,7 @@ module.exports = {
         "Occupation": "Consultant",
         "TaxId": 986574,
         "policyDetails": {
-            "PolicyNumber": "ABDULA0001",
+            "PolicyNumber": "ALBDULA000048805",
             "PolicyStatus": "Active",
             "ContractIssueDate": "10-10-2010",
             "OwnerAgeAtIssue": 50
@@ -44,7 +44,7 @@ module.exports = {
         "Occupation": "Consultant",
         "TaxId": 986574,
         "policyDetails": {
-            "PolicyNumber": "ABDULA0002",
+            "PolicyNumber": "ALBDULA000048806",
             "PolicyStatus": "Active",
             "ContractIssueDate": "10-10-2010",
             "OwnerAgeAtIssue": 50
