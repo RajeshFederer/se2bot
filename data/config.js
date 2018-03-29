@@ -24,6 +24,7 @@ module.exports = {
             "ContractIssueDate": "10-10-2010",
             "OwnerAgeAtIssue": 50
         },
+        "totalFund" :"20,521.49 USD",
         "fundDetails" :[{
             "fundName": "Alamere Equity Income",
             "CashValue": "10,842.95 USD",
@@ -53,6 +54,7 @@ module.exports = {
         "RiskAppetiteScore": 5,
         "FinancialGuidanceStrategy" : "Aggressive",
         "State" : "New York",
+        "totalFund" :"14656.1455 USD",
         "policyDetails": {
             "PolicyNumber": "ALBDULA000048815",
             "PolicyStatus": "Active",
