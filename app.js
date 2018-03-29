@@ -12,6 +12,11 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
 app.post('/', (req, res) =>{
+if(req.body.result.action=='getPolicyInvalid'){
+
+  return action['getpolicyInfo'](req,res);
+}
+
   return action[req.body.result.action](req, res);
 });
 
