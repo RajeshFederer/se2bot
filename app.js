@@ -13,11 +13,11 @@ app.use(bodyParser.json());
 
 app.post('/', (req, res) =>{
 if(req.body.result.action=='getPolicyInvalid'){
-
   return action['getpolicyInfo'](req,res);
-}
+}else{
 
   return action[req.body.result.action](req, res);
+}
 });
 
 app.listen(port, function(){
