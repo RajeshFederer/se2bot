@@ -32,7 +32,7 @@ module.exports = {
         },{
             "fundName": "Alamere Money Market",
             "CashValue": "9,678.54 USD",
-            "Units" : 889.783484,
+            "Units" :  820.859600,
             "UnitValue" : 10.87741207
         }]
     }, {
@@ -54,20 +54,20 @@ module.exports = {
         "FinancialGuidanceStrategy" : "Aggressive",
         "State" : "New York",
         "policyDetails": {
-            "PolicyNumber": "ALBDULA000048806",
+            "PolicyNumber": "ALBDULA000048815",
             "PolicyStatus": "Active",
             "ContractIssueDate": "10-10-2010",
             "OwnerAgeAtIssue": 50
         },
         "fundDetails" :[{
             "fundName": "Alamere Equity Income",
-            "CashValue": "10,842.95 USD",
-            "Units" : 996.831411,
+            "CashValue": "5421.475 USD",
+            "Units" : 498.4157055,
             "UnitValue" : 10.87741207
         },{
             "fundName": "Alamere Money Market",
-            "CashValue": "9,678.54 USD",
-            "Units" : 889.783484,
+            "CashValue": "9234.6705 USD",
+            "Units" : 923.46705,
             "UnitValue" : 10.87741207
         }]
     }]
