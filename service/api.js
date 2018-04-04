@@ -18,7 +18,7 @@ module.exports.callApi = (url, method, body) =>{
     if (method == "POST" && body){
         options.body = body;
     }
-    
+    console.log('POLPOL', options);
     return new Promise((resolve, reject) =>{
         request(options, function (err, response, body) {
             console.log('RESPONSE', err, body);
