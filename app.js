@@ -3,6 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
+const path = require('path');
 let action = require('./lib/action');
 
 const app = express();
@@ -20,7 +21,7 @@ app.post('/', (req, res) =>{
 });
 
 app.get('/image',function(req,res){
-  res.sendFile('./images/switch.png');
+  res.sendFile(path.join(__dirname, '/images/switch.png'));
 });
 
 app.listen(port, function(){
