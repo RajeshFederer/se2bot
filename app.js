@@ -6,7 +6,7 @@ const request = require('request');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
-
+global.cusInfo = {};
 let action = require('./lib/action');
 
 const app = express();
