@@ -10,8 +10,7 @@ module.exports.callApi = (url, method, body) =>{
         headers: {
             'Content-Type': 'application/json',
             'Accept':'application/json',
-            'username':'wpcadmin',
-            'password' :'wpcadmin'
+            'Authorization': 'Basic ' + new Buffer('wpcadmin:wpcadmin').toString('base64')
         },
         json : true
     };
