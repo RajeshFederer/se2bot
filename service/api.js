@@ -8,11 +8,8 @@ module.exports.callApi = (url, method, body) =>{
         method : method,
         url: url,
         headers: {
-            'Content-Type': 'application/json',
-            'Accept':'application/json',
             'Authorization': 'Basic ' + new Buffer('wpcadmin:wpcadmin').toString('base64')
-        },
-        json : true
+        }
     };
     if (method == "POST" && body){
         options.body = body;
