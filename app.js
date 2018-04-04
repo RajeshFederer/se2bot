@@ -21,7 +21,7 @@ app.post('/', (req, res) =>{
 });
 
 app.get('/image',function(req,res){
-  res.sendFile(path.join(__dirname, '/images/switch.png'));
+  res.sendFile(path.join(__dirname, '/images/presentMarket.jpg'));
 });
 
 app.listen(port, function(){
