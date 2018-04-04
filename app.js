@@ -20,7 +20,7 @@ app.post('/', (req, res) =>{
   }
 });
 
-app.get('/image',function(req,res){
+app.get('/image/presentMarket',function(req,res){
   res.sendFile(path.join(__dirname, '/images/presentMarket.jpg'));
 });
 
