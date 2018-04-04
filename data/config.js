@@ -1,8 +1,9 @@
 module.exports = {
-
+    
     clientDetails: [{
         "FirstName": "Fredrick",
         "LastName": "Gonsalves",
+        "Email" : "Fredrick.Gonsalves@gmail.com",
         "MaritalStatus": "Married",
         "DOB": "12-10-1960",
         "Age": 58,
@@ -39,6 +40,7 @@ module.exports = {
     }, {
         "FirstName": "Valarie",
         "LastName": "Jones",
+        "Email" : "Valarie.Jones@gmail.com",
         "MaritalStatus": "Single",
         "DOB": "12-10-1986",
         "Age": 32,
