@@ -19,6 +19,10 @@ app.post('/', (req, res) =>{
   }
 });
 
+app.get('/image',function(req,res){
+  res.sendFile('./images/switch.png');
+});
+
 app.listen(port, function(){
     console.log('AGENT is running my app on  PORT: ' + port);
 });
