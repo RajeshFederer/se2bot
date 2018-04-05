@@ -26,17 +26,20 @@ module.exports = {
             "ContractIssueDate": "10-10-2010",
             "OwnerAgeAtIssue": 50
         },
-        "totalFund" :"20,521.49 USD",
+        "totalFund" :"21487.06 USD",
+        "ValuationDate" : "10-10-2010",
         "fundDetails" :[{
             "fundName": "Alamere Equity Income",
-            "CashValue": "10,842.95 USD",
-            "Units" : 996.831411,
-            "UnitValue" : 10.87741207
+            "CashValue": "12915.06 USD",
+            "Units" : 1131.62,
+            "UnitValue" : 11.41291884,
+            "Current%"  : 60.11
         },{
             "fundName": "Alamere Money Market",
-            "CashValue": "9,678.54 USD",
-            "Units" :  820.859600,
-            "UnitValue" : 10.87741207
+            "CashValue": "8,572.00 USD",
+            "Units" :  754.420811,
+            "UnitValue" : 11.36235888,
+            "Current%"  : 39.89
         }]
     }, {
         "FirstName": "Valarie",
@@ -58,23 +61,26 @@ module.exports = {
         "SSNNumber": "S987654321",
         "FinancialGuidanceStrategy" : "Aggressive",
         "State" : "New York",
-        "totalFund" :"14656.1455 USD",
+        "totalFund" :"897475.08 USD",
         "policyDetails": {
             "PolicyNumber": "ALBDULA000048815",
             "PolicyStatus": "Active",
             "ContractIssueDate": "10-10-2010",
             "OwnerAgeAtIssue": 50
         },
+        "ValuationDate" : "11-11-2010",
         "fundDetails" :[{
             "fundName": "Alamere Equity Income",
-            "CashValue": "5421.475 USD",
-            "Units" : 498.4157055,
-            "UnitValue" : 10.87741207
+            "CashValue": "305487.44 USD",
+            "Units" : 24755.37151,
+            "UnitValue" : 12.34024882,
+            "Current%"  : 34.04
         },{
             "fundName": "Alamere Money Market",
-            "CashValue": "9234.6705 USD",
-            "Units" : 923.46705,
-            "UnitValue" : 10.87741207
+            "CashValue": "591987.64 USD",
+            "Units" : 47382.9747,
+            "UnitValue" : 12.49367814,
+            "Current%"  : 65.96
         }]
     }]
 };
