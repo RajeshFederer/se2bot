@@ -17,6 +17,7 @@ module.exports = {
         "TaxId": 986574,
         "CreditScore": 500,
         "RiskAppetiteScore": 7,
+        "SSNNumber": "S123456789",
         "FinancialGuidanceStrategy" : "Safetynet",
         "State" : "Alabama",
         "policyDetails": {
@@ -54,6 +55,7 @@ module.exports = {
         "TaxId": 986574,
         "CreditScore": 400,
         "RiskAppetiteScore": 5,
+        "SSNNumber": "S987654321",
         "FinancialGuidanceStrategy" : "Aggressive",
         "State" : "New York",
         "totalFund" :"14656.1455 USD",
