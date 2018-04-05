@@ -37,7 +37,7 @@ module.exports = {
         },{
             "fundName": "Alamere Money Market",
             "CashValue": "8,572.00 USD",
-            "Units" :  754.420811,
+            "Units" :  754.4208,
             "UnitValue" : 11.36235888,
             "Current%"  : 39.89
         }]
@@ -72,7 +72,7 @@ module.exports = {
         "fundDetails" :[{
             "fundName": "Alamere Equity Income",
             "CashValue": "305487.44 USD",
-            "Units" : 24755.37151,
+            "Units" : 24755.3715,
             "UnitValue" : 12.34024882,
             "Current%"  : 34.04
         },{
