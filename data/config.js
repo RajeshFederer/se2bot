@@ -18,6 +18,7 @@ module.exports = {
         "CreditScore": 500,
         "RiskAppetiteScore": 7,
         "SSNNumber": "S123456789",
+        "SSNLastDigit": 6789,
         "FinancialGuidanceStrategy" : "Safetynet",
         "State" : "Alabama",
         "policyDetails": {
@@ -59,6 +60,7 @@ module.exports = {
         "CreditScore": 400,
         "RiskAppetiteScore": 5,
         "SSNNumber": "S987654321",
+        "SSNLastDigit": 4321,
         "FinancialGuidanceStrategy" : "Aggressive",
         "State" : "New York",
         "totalFund" :"897475.08 USD",
