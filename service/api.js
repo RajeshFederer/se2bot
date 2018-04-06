@@ -2,26 +2,29 @@
 
 const request = require('request');
 
-module.exports.callApi = (url, method, body) =>{
+module.exports.callApi = (url, method, body, cookie) => {
 
     let options = {
-        method : method,
+        method: method,
         url: url,
         headers: {
             'Content-Type': 'application/json',
-            'Accept':'application/json',
-            'Authorization': 'Basic ' + new Buffer('wpcadmin:wpcadmin').toString('base64')
+            'Accept': 'application/json',
+            'Authorization': 'Basic ' + new Buffer('aswini.ibmbpm@gmail.com:Aswini0808').toString('base64')
         },
-        json : true
+        json: true
     };
-    if (method == "POST" && body){
+    if (cookie) {
+        options.headers.Cookie = cookie;
+    }
+    if (method == "POST" && body) {
         options.body = body;
     }
     console.log('POLPOL', options);
-    return new Promise((resolve, reject) =>{
+    return new Promise((resolve, reject) => {
         request(options, function (err, response, body) {
             console.log('RESPONSE', err, body);
-            if (err){
+            if (err) {
                 reject(err);
             } else {
                 resolve(body);
