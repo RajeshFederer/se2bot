@@ -6,7 +6,7 @@ module.exports = {
         "Email" : "fredrick.gonsalves@hexaware.com",
         "MaritalStatus": "Married",
         "DOB": "12-10-1960",
-        "Age": 58,
+        "Age": 50,
         "AnnualEarnedIncome": 250000,
         "TotalNetWorth": 90000000,
         "LegalResidenceAddress": "141,First Avenue",
