@@ -34,8 +34,9 @@ app.post('/', (req, res) => {
 });
 
 app.post('/cookie', (req, res) => {
-  if (res.body.cookie) {
+  if (req.body.cookie) {
     globalCookie = res.body.cookie;
+    console.log("COOKIE SUCCESS");
     return res.json({ message: "Success" })
   } else {
     return res.json({ message: "Provide Cookie" })
