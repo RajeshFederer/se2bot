@@ -8,6 +8,7 @@ const cookieParser = require('cookie-parser');
 const session = require('express-session');
 global.cusInfo = {};
 global.chatLog = {};
+global.globalCookie = "";
 let action = require('./lib/action');
 
 const app = express();
@@ -29,6 +30,15 @@ app.post('/', (req, res) => {
     return action["getPolicyInfo"](req, res);
   } else {
     return action[req.body.result.action](req, res);
+  }
+});
+
+app.post('/cookie', (req, res) => {
+  if (res.body.cookie) {
+    globalCookie = res.body.cookie;
+    return res.json({ message: "Success" })
+  } else {
+    return res.json({ message: "Provide Cookie" })
   }
 });
 
